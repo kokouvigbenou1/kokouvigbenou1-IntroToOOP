@@ -15,7 +15,7 @@ public class BirdTest {
         Assert.assertEquals(expected, actual);
     }
     /**
-     * If ageMonths is less than 3, birds should say "Chirp".
+     * If ageMonths is more than 3, birds should say "Chirp".
      */
     @Test
     public void birdTest2(){
